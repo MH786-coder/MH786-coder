@@ -1,12 +1,107 @@
+<!-- Animated Header with Wave Effect -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2800&pause=500&color=00F5A0&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hi%2C+I'm+Mohamed+Hathim!;%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+Researcher;%F0%9F%92%BB+Full-Stack+Developer;%F0%9F%96%A5%EF%B8%8F+Desktop+App+Developer;%F0%9F%94%90+Malware+Analyst;%F0%9F%9A%80+Exploit+Developer" alt="Typing SVG" />
-</div>
-
-<br>
-
-<div align="center">
+  <br>
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 </div>
+
+<!-- Animated Background & Global Styles -->
+<style>
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  @keyframes pulse {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.05); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes glow {
+    0% { box-shadow: 0 0 5px #00ffaa; }
+    50% { box-shadow: 0 0 20px #00ffaa, 0 0 30px #00ffaa; }
+    100% { box-shadow: 0 0 5px #00ffaa; }
+  }
+  @keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  body {
+    background: linear-gradient(-45deg, #0a0f0f, #1a2a2a, #0f1a1a, #1e2f2f);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    color: #e0e0e0;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(10, 20, 20, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 255, 170, 0.1);
+    animation: glow 4s infinite;
+  }
+  h1, h2, h3 {
+    animation: slideIn 1s ease-out;
+    border-bottom: 2px solid #00ffaa;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px #00ffaa;
+  }
+  h1:hover, h2:hover, h3:hover {
+    animation: pulse 1s infinite;
+  }
+  img[src*="shields.io"], img[src*="badge"] {
+    transition: all 0.3s ease;
+    animation: float 3s ease-in-out infinite;
+  }
+  img[src*="shields.io"]:hover, img[src*="badge"]:hover {
+    transform: scale(1.2) rotate(5deg);
+    filter: drop-shadow(0 0 10px #00ffaa);
+  }
+  .project-card {
+    background: rgba(30, 40, 40, 0.9);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #00ffaa;
+    transition: all 0.3s ease;
+    animation: glow 3s infinite;
+  }
+  .project-card:hover {
+    transform: scale(1.02);
+    background: rgba(40, 60, 60, 0.9);
+    border-color: #ffaa00;
+    animation: pulse 1s infinite;
+  }
+  .badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    animation: float 5s ease-in-out infinite;
+  }
+  .section-divider {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #00ffaa, transparent);
+    animation: slideIn 2s infinite;
+  }
+  .animated-icon {
+    display: inline-block;
+    animation: float 2s ease-in-out infinite;
+    margin-right: 8px;
+  }
+</style>
+
+<!-- Main Container with Animated Background -->
+<div class="container">
 
 # 👋 Hi, I'm Mohamed Hathim!
 
@@ -18,6 +113,8 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 
 ## 🎯 Core Competencies
 
+<div class="project-card">
+  
 ### 🔐 Cybersecurity Specializations
 - **Malware Analysis & Development** - Advanced persistent threat (APT) simulation, reverse engineering
 - **Exploit Development** - Zero-day research, vulnerability analysis, proof-of-concept development
@@ -25,17 +122,27 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - **Threat Intelligence** - Malware analysis, IOC identification, threat hunting
 - **Digital Forensics** - Incident response, memory analysis, disk forensics
 
+</div>
+
+<div class="project-card">
+  
 ### 🌐 Web Development Expertise
 - **Full-Stack Development** - End-to-end web application development
 - **Responsive Design** - Mobile-first approach with modern frameworks
 - **API Development** - RESTful APIs with robust security implementations
 - **Performance Optimization** - Code optimization and load balancing
 
+</div>
+
+<div class="project-card">
+  
 ### 🖥️ Desktop Application Development
 - **Cross-Platform Development** - Windows, Linux, macOS applications
 - **Native Applications** - Platform-specific optimized solutions
 - **System Integration** - Deep OS integration and hardware interaction
 - **Security-Centric Design** - Built-in security controls and protections
+
+</div>
 
 ---
 
@@ -49,7 +156,7 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 **OS & Platforms:** Kali Linux, Windows, Ubuntu, Docker, VMware
 
 ### 💻 Programming & Scripting Languages
-<div align="center">
+<div class="badge-container">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -67,6 +174,8 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 ### 🌐 Web Development Stack
 
 #### Frontend Technologies
+<div class="badge-container">
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
@@ -74,7 +183,11 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)
 
+</div>
+
 #### Backend Technologies
+<div class="badge-container">
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -82,24 +195,36 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
+</div>
+
 #### Databases
+<div class="badge-container">
+
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
+</div>
+
 ### 🖥️ Desktop Development Frameworks
+<div class="badge-container">
+
 ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-ED8B00?style=flat-square&logo=java&logoColor=white)
 ![GTK](https://img.shields.io/badge/GTK-7FE719?style=flat-square&logo=gtk&logoColor=black)
 
+</div>
+
 ---
 
 ## 🚀 Featured Projects
 
 ### 🌐 Web Development Projects
+<div class="project-card">
+
 #### [🔐 Secure E-Commerce Platform](https://github.com/MH786-coder/secure-ecommerce)
 **Full-stack e-commerce solution with advanced security features:**
 - Multi-layer authentication system with 2FA
@@ -107,6 +232,10 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - Real-time fraud detection and prevention
 - Secure inventory and order management
 - Advanced admin dashboard with analytics
+
+</div>
+
+<div class="project-card">
 
 #### [📊 Enterprise Dashboard System](https://github.com/MH786-coder/enterprise-dashboard)
 **Comprehensive business intelligence platform:**
@@ -116,7 +245,11 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - Integration with multiple data sources
 - Responsive design for all devices
 
+</div>
+
 ### 🖥️ Desktop Application Projects
+<div class="project-card">
+
 #### [🛡️ System Security Monitor](https://github.com/MH786-coder/system-monitor)
 **Advanced desktop security monitoring tool:**
 - Real-time system activity monitoring
@@ -124,6 +257,10 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - Network traffic inspection
 - Automated threat response system
 - Cross-platform compatibility (Windows/Linux/macOS)
+
+</div>
+
+<div class="project-card">
 
 #### [🔧 Advanced File Management Suite](https://github.com/MH786-coder/file-manager)
 **Enterprise-grade file management solution:**
@@ -133,7 +270,11 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - Advanced search and filtering
 - Custom plugin architecture
 
+</div>
+
 ### 🔐 Cybersecurity Projects
+<div class="project-card">
+
 #### [🦠 Advanced Malware Analysis Toolkit](https://github.com/MH786-coder/malware-toolkit)
 **Comprehensive malware analysis framework featuring:**
 - Dynamic analysis with custom sandbox environment
@@ -142,6 +283,10 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - YARA rule generation for threat detection
 - Automated malware classification system
 
+</div>
+
+<div class="project-card">
+
 #### [💥 Exploit Development Framework](https://github.com/MH786-coder/exploit-framework)
 **Advanced exploit development platform with:**
 - Custom fuzzing modules for vulnerability discovery
@@ -149,6 +294,8 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 - Shellcode development and encryption
 - Exploit mitigation bypass techniques
 - Cross-platform exploit compatibility
+
+</div>
 
 ---
 
@@ -173,12 +320,18 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 ## 📈 GitHub Analytics
 
 <div align="center">
-
-![MH786-coder's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MH786-coder&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started)
-![GitHub Streak](https://streak-stats.demolab.com/?user=MH786-coder&theme=github-dark-blue&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MH786-coder&layout=compact&theme=github_dark&hide_border=true&langs_count=10)
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MH786-coder&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Activity)
-
+  <div class="project-card" style="display: inline-block; width: 45%;">
+    ![MH786-coder's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MH786-coder&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started)
+  </div>
+  <div class="project-card" style="display: inline-block; width: 45%;">
+    ![GitHub Streak](https://streak-stats.demolab.com/?user=MH786-coder&theme=github-dark-blue&hide_border=true)
+  </div>
+  <div class="project-card">
+    ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MH786-coder&layout=compact&theme=github_dark&hide_border=true&langs_count=10)
+  </div>
+  <div class="project-card">
+    ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MH786-coder&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Activity)
+  </div>
 </div>
 
 ---
@@ -205,7 +358,7 @@ Welcome to my GitHub profile! I'm a versatile technology professional with exper
 
 ## 🌐 Connect With Me
 
-<div align="center">
+<div align="center" class="badge-container">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-hathim)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MH786_coder)
@@ -251,3 +404,6 @@ I'm actively seeking collaborations in:
 - **Desktop security solutions**
 
 *Let's connect to discuss how we can create secure, innovative solutions together!*
+
+</div>
+<!-- End of Animated Container -->
