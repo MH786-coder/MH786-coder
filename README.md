@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2800&pause=500&color=00F5A0&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hi%2C+I'm+Mohamed+Hathim!;%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+Researcher;%F0%9F%92%BB+Full-Stack+Developer;%F0%9F%96%A5%EF%B8%8F+Desktop+App+Developer;%F0%9F%94%90+Malware+Analyst;%F0%9F%9A%80+Exploit+Developer" alt="Typing SVG" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+</div>
+
 # 👋 Hi, I'm Mohamed Hathim!
 
 ## 🛡️ Cybersecurity Researcher | 💻 Full-Stack Developer | 🖥️ Desktop App Developer | 🔐 Malware Analyst | 🚀 Exploit Developer
