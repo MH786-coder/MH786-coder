@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Mohamed Hathim - Software Developer & Cybersecurity" width="100%"/>
+<h1 align="center">Mohamed Hathim</h1>
+
+<p align="center">
+  <strong>Software Developer</strong> • <strong>Cybersecurity</strong> • <strong>Systems & Security</strong>
+</p>
 
 <a href="https://in.linkedin.com/in/mohamed-hathim">
 <img src="https://img.shields.io/badge/LinkedIn-Mohamed%20Hathim-1F4E79?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
