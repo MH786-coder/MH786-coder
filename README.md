@@ -1,158 +1,196 @@
 <div align="center">
 
-<h1 align="center">Mohamed Hathim</h1>
+<h1>MOHAMED HATHIM</h1>
 
-<p align="center">
-  <strong>Software Developer</strong> • <strong>Cybersecurity</strong> • <strong>Systems & Security</strong>
+<p>
+<strong>SOFTWARE DEVELOPER</strong> &nbsp;|&nbsp;
+<strong>CYBERSECURITY</strong> &nbsp;|&nbsp;
+<strong>SYSTEMS & SECURITY</strong>
 </p>
 
+<p>
 <a href="https://in.linkedin.com/in/mohamed-hathim">
-<img src="https://img.shields.io/badge/LinkedIn-Mohamed%20Hathim-1F4E79?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LINKEDIN-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn"/>
 </a>
 <a href="mailto:mohamedhathim628@gmail.com">
-<img src="https://img.shields.io/badge/Email-mohamedhathim628%40gmail.com-1A1D21?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"/>
 </a>
 <a href="https://github.com/MH786-coder">
-<img src="https://img.shields.io/badge/GitHub-MH786--coder-1A1D21?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GITHUB-FFFFFF?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub"/>
+</a>
+</p>
+
+</div>
+
+---
+
+## > ABOUT_ME
+
+Software developer focused on cybersecurity, systems, application development, and low-level computing.
+
+I enjoy understanding how software works internally, building practical applications, analysing systems, and learning security through hands-on labs and CTFs.
+
+> [ SYSTEM STATUS ]
+
+    USER        : MOHAMED HATHIM
+    ROLE        : SOFTWARE DEVELOPER
+    FOCUS       : CYBERSECURITY
+    ENVIRONMENT : LINUX / WINDOWS
+    STATUS      : LEARNING • BUILDING • SECURING
+
+## > TECH_STACK
+
+### LANGUAGES
+
+<p>
+<img src="https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=FFFFFF" alt="C"/>
+<img src="https://img.shields.io/badge/C%2B%2B-000000?style=flat-square&logo=cplusplus&logoColor=FFFFFF" alt="C++"/>
+<img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python"/>
+<img src="https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java"/>
+<img src="https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=FFFFFF" alt="PHP"/>
+<img src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=FFFFFF" alt="JavaScript"/>
+</p>
+
+### WEB
+
+<p>
+<img src="https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=FFFFFF" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css3&logoColor=FFFFFF" alt="CSS3"/>
+</p>
+
+### DATABASES
+
+<p>
+<img src="https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=FFFFFF" alt="MySQL"/>
+<img src="https://img.shields.io/badge/MongoDB-000000?style=flat-square&logo=mongodb&logoColor=FFFFFF" alt="MongoDB"/>
+</p>
+
+### SYSTEMS & TOOLS
+
+<p>
+<img src="https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=FFFFFF" alt="Linux"/>
+<img src="https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=FFFFFF" alt="Bash"/>
+<img src="https://img.shields.io/badge/PowerShell-000000?style=flat-square&logo=powershell&logoColor=FFFFFF" alt="PowerShell"/>
+</p>
+
+### SECURITY
+
+<p>
+<img src="https://img.shields.io/badge/Burp_Suite-000000?style=flat-square&logoColor=FFFFFF" alt="Burp Suite"/>
+<img src="https://img.shields.io/badge/Nmap-000000?style=flat-square&logoColor=FFFFFF" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Wireshark-000000?style=flat-square&logo=wireshark&logoColor=FFFFFF" alt="Wireshark"/>
+<img src="https://img.shields.io/badge/Metasploit-000000?style=flat-square&logoColor=FFFFFF" alt="Metasploit"/>
+<img src="https://img.shields.io/badge/Ghidra-000000?style=flat-square&logoColor=FFFFFF" alt="Ghidra"/>
+<img src="https://img.shields.io/badge/GDB-000000?style=flat-square&logoColor=FFFFFF" alt="GDB"/>
+</p>
+
+## > CYBERSECURITY
+
+    WEB SECURITY
+    ├── OWASP Top 10
+    ├── Web Vulnerability Assessment
+    ├── API Security Testing
+    └── Web Penetration Testing
+
+    NETWORK SECURITY
+    ├── Network Reconnaissance
+    ├── Network Scanning
+    └── Traffic Analysis
+
+    LOW LEVEL SECURITY
+    ├── Binary Analysis
+    ├── Reverse Engineering
+    └── Binary Exploitation Fundamentals
+
+## > FEATURED_PROJECT
+
+### SECURE CHAT DESKTOP APPLICATION
+
+A desktop client-server chat application built around TCP socket communication with encrypted messaging.
+
+    TYPE         : Desktop Application
+    ARCHITECTURE : Client / Server
+    PROTOCOL     : TCP
+    SECURITY     : Encrypted Messaging
+    COMMUNICATION: Socket Based
+
+Repository:
+
+https://github.com/SNAassaignment/ChatServerApp
+
+## > SECURITY_LAB
+
+    PLATFORMS
+
+    [+] TryHackMe
+    [+] Hack The Box
+    [+] PortSwigger
+    [+] PicoCTF
+
+Hands-on areas include:
+
+    [01] Web Security
+    [02] API Security
+    [03] Network Reconnaissance
+    [04] Vulnerability Assessment
+    [05] CTF Challenges
+    [06] Binary Analysis
+    [07] Reverse Engineering
+    [08] Binary Exploitation
+
+## > WHAT_I_BUILD
+
+    ┌──────────────────────┬─────────────────────────────────────┐
+    │ SOFTWARE             │ Practical applications & tools      │
+    │ CYBERSECURITY        │ Security labs & testing             │
+    │ WEB APPLICATIONS     │ Websites, APIs & backend systems   │
+    │ SYSTEMS PROGRAMMING  │ C/C++ & low-level projects          │
+    │ SECURITY TOOLS       │ Reconnaissance & analysis tools     │
+    └──────────────────────┴─────────────────────────────────────┘
+
+## > CURRENTLY_LEARNING
+
+    [+] Advanced Web Security
+    [+] API Security
+    [+] Reverse Engineering
+    [+] Binary Exploitation
+    [+] C / Systems Programming
+    [+] Linux Internals
+    [+] Software Architecture
+    [+] Security Research
+
+## > GITHUB_ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=MH786-coder&show_icons=true&hide_border=true&bg_color=000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF" alt="GitHub Stats"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MH786-coder&layout=compact&hide_border=true&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF" alt="Top Languages"/>
+
+</div>
+
+## > CONNECT
+
+<div align="center">
+
+<a href="https://github.com/MH786-coder">
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/>
+</a>
+
+<a href="https://in.linkedin.com/in/mohamed-hathim">
+<img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn"/>
+</a>
+
+<a href="mailto:mohamedhathim628@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
 </a>
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-## 👋 About Me
-
-I'm Mohamed Hathim, a software developer with a strong interest in **cybersecurity, systems, and application development**.
-
-I enjoy understanding how software works internally, building applications, exploring security vulnerabilities, and learning through hands-on projects and CTF challenges.
-
-Currently exploring:
-
-* 🔐 Web security & penetration testing
-* 🌐 Web and API development
-* 🧩 Reverse engineering & binary analysis
-* 🐧 Linux and system programming
-* 💻 C/C++ and low-level concepts
-* 🛠️ Building practical software projects
-
-## 🛠️ Tech Stack
-
-### Languages
-
-<p>
-<img src="https://img.shields.io/badge/C-1A1D21?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/C++-1A1D21?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-<img src="https://img.shields.io/badge/Python-1A1D21?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Java-1A1D21?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-<img src="https://img.shields.io/badge/PHP-1A1D21?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
-<img src="https://img.shields.io/badge/JavaScript-1A1D21?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"/>
-</p>
-
-### Web & Databases
-
-<p>
-<img src="https://img.shields.io/badge/HTML-1A1D21?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
-<img src="https://img.shields.io/badge/CSS-1A1D21?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
-<img src="https://img.shields.io/badge/MySQL-1A1D21?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-<img src="https://img.shields.io/badge/MongoDB-1A1D21?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-</p>
-
-### Cybersecurity
-
-<p>
-<img src="https://img.shields.io/badge/Burp%20Suite-1A1D21?style=flat-square&logoColor=white" alt="Burp Suite"/>
-<img src="https://img.shields.io/badge/Nmap-1A1D21?style=flat-square&logoColor=white" alt="Nmap"/>
-<img src="https://img.shields.io/badge/Wireshark-1A1D21?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark"/>
-<img src="https://img.shields.io/badge/Metasploit-1A1D21?style=flat-square&logoColor=white" alt="Metasploit"/>
-<img src="https://img.shields.io/badge/Ghidra-1A1D21?style=flat-square&logoColor=white" alt="Ghidra"/>
-<img src="https://img.shields.io/badge/GDB-1A1D21?style=flat-square&logoColor=white" alt="GDB"/>
-</p>
-
-### Systems & Tools
-
-<p>
-<img src="https://img.shields.io/badge/Linux-1A1D21?style=flat-square&logo=linux&logoColor=white" alt="Linux"/>
-<img src="https://img.shields.io/badge/Bash-1A1D21?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
-<img src="https://img.shields.io/badge/PowerShell-1A1D21?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"/>
-</p>
-
-## 🚀 Featured Project
-
-### 🔐 Secure Chat Desktop Application
-
-A desktop-based client-server chat application built around **TCP socket communication and encrypted messaging**.
-
-**Highlights**
-
-* Encrypted messages before transmission
-* TCP client-server communication
-* Socket-based networking
-* Focus on secure communication concepts
-
-**Repository:**
-[SNAassaignment/ChatServerApp](https://github.com/SNAassaignment/ChatServerApp)
-
-## 🔎 Security & CTF Practice
-
-I use hands-on labs and CTF platforms to strengthen practical security knowledge.
-
-**Areas I explore:**
-
-* OWASP Top 10
-* Web vulnerability assessment
-* API security
-* Network reconnaissance
-* Network traffic analysis
-* Binary analysis
-* Reverse engineering fundamentals
-* Binary exploitation fundamentals
-
-**Platforms:**
-
-TryHackMe · Hack The Box · PortSwigger · PicoCTF
-
-## 💻 What I Like Building
-
-```text
-Cybersecurity        → Security labs, testing & CTF practice
-Web Development      → Websites, APIs & backend systems
-Systems Programming  → C/C++ & low-level concepts
-Security Research    → Reverse engineering & binary analysis
-Developer Tools      → Practical utilities and experiments
-```
-
-## 📊 GitHub Activity
+---
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=MH786-coder&show_icons=true&hide_border=true&bg_color=00000000&title_color=3B82C4&icon_color=3B82C4&text_color=7D8590" alt="GitHub Stats"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MH786-coder&layout=compact&hide_border=true&bg_color=00000000&title_color=3B82C4&text_color=7D8590" alt="Top Languages"/>
-
-</div>
-
-## 🌱 Currently Learning
-
-* Advanced web security
-* API security
-* Reverse engineering
-* Binary exploitation
-* C and systems programming
-* Linux internals
-* Software architecture
-
-## 🌐 Connect
-
-<div align="center">
-
-<a href="https://in.linkedin.com/in/mohamed-hathim">LinkedIn</a>
- •  <a href="mailto:mohamedhathim628@gmail.com">Email</a>
- •  <a href="https://github.com/MH786-coder">GitHub</a>
-
-<br><br>
-
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-**Build. Break. Learn. Secure.**
+<strong>BUILD • BREAK • LEARN • SECURE</strong>
 
 </div>
